@@ -24,7 +24,7 @@ try:
     cnt = 0
     #folder_num = 1
     dir_name = get_time()
-    os.mkdir('/home/jeong/fall_detection_online/test/rec/'+ str(dir_name) +'/')
+    os.mkdir('/home/jeong/fall_detection_online/test/rec/kkkkkkkk'+ str(dir_name) +'/')
     while True:
         # Read the length of the image as a 32-bit unsigned int. If the
         # length is zero, quit the loop
