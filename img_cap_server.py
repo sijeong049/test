@@ -15,7 +15,7 @@ def get_time():
 # Start a socket listening for connections on 0.0.0.0:8000 (0.0.0.0 means
 # all interfaces)
 server_socket = socket.socket()
-server_socket.bind(('192.168.0.102', 8000))
+server_socket.bind(('192.168.0.11', 80))
 server_socket.listen(0)
 
 # Accept a single connection and make a file-like object out of it
@@ -25,7 +25,7 @@ try:
     cnt = 0
     #folder_num = 1
     dir_name = get_time()
-    os.mkdir('/home/jeong/fall_detection_online/test/rec/kkkkkkkk'+ str(dir_name) +'/')
+    os.mkdir('/home/jeong/fall_detection_online/test/rec/'+ str(dir_name) +'/')
     while True:
         # Read the length of the image as a 32-bit unsigned int. If the
         # length is zero, quit the loop
