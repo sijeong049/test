@@ -37,7 +37,7 @@ def search_dir_num(dirname):
 
     return len(filenames)
 
-
+#test1
 def get_dir_path(dirname, index_num):
     dirnames = os.listdir(dirname)
     dirnames.sort()
