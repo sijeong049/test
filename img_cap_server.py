@@ -19,9 +19,11 @@ server_socket.bind(('192.168.99.101', 80))
 server_socket.listen(0)
 #test
 # Accept a single connection and make a file-like object out of it
+print('server start')
+
 connection = server_socket.accept()[0].makefile('rb')
 try:
-    
+    print('client accept')
     cnt = 0
     #folder_num = 1
     dir_name = get_time()
