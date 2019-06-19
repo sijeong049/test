@@ -1,7 +1,7 @@
 import io
 import socket
 import struct
-import time확인
+import time
 from PIL import Image
 import os
 import time
