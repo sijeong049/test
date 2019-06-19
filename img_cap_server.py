@@ -17,7 +17,7 @@ def get_time():
 server_socket = socket.socket()
 server_socket.bind(('172.17.0.7', 8000))
 server_socket.listen(0)
-#test
+
 # Accept a single connection and make a file-like object out of it
 connection = server_socket.accept()[0].makefile('rb')
 try:
